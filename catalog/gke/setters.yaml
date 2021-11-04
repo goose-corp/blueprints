@@ -40,9 +40,9 @@ data:
   # The private IP range for pods to use, allocated to the dedicated subnet
   pod-ip-range: 172.17.0.0/16
   # The namespace in which to manage service enablement resources
-  projects-namespace: projects
+  projects-namespace: config-control
   # The group in which to manage the list of groups that can be used for RBAC.
   # Must be named exactly 'gke-security-groups'.
-  security-group: gke-security-group@example.com
+  security-group: gke-security-groups@example.com
   # The private IP range for services to use, allocated to the dedicated subnet
   service-ip-range: 172.18.0.0/16

@@ -38,9 +38,9 @@ data:
   # The branch to sync resources from for the repo for Config Sync
   syncBranch: main # kpt-set: ${syncBranch}
   # The directory in the repository to pull configs from e.g. config/root
-  policyDir: config/root # kpt-set: ${policyDir}
+  policyDir: config/rootDir # kpt-set: ${policyDir}
   # The wait time in seconds between consecutive syncs
-  syncWaitSecs: "10" # kpt-set: ${syncWaitSecs}
+  syncWaitSecs: "20" # kpt-set: ${syncWaitSecs}
   # The Tag or Hash on the Config Sync repo to checkout
   syncRev: HEAD # kpt-set: ${syncRev}
   # The namespaces to exempt from Policy Controller constraints enforcement
